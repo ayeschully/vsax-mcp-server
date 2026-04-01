@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:api.vsax.net)",
+      "Bash(npm install:*)",
+      "Bash(npx tsc:*)",
+      "Bash(node -e \"const z = require\\(''zod''\\); console.log\\(typeof z.record\\)\")",
+      "Bash(VSAX_SERVER_NAME=test.vsax.net VSAX_TOKEN_ID=test VSAX_TOKEN_SECRET=test node dist/index.js)"
+    ]
+  }
+}
